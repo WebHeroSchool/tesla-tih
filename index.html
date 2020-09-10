@@ -2,93 +2,105 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Промежуточная итоговая работа. Шаг 1</title>
 		<link rel="stylesheet" type="text/css" href="">
 	</head>
 	<body>
 		<header class="header">
 			<div class="header__logo">
-				<img src="" alt="Логотип" width="" height="" />
+				<img src="/Tesla-Wordmark-Red.png" class="logo__img" alt="Логотип" />
 			</div>
-			<nav class="header__menu">
-				<ul>
-					<li><a href="">Model S</a></li>
-					<li><a href="">Model X</a></li>
-					<li><a href="">Model 3</a></li>
-					<li><a href="">Roadster</a></li>
-					<li><a href="">Energy</a></li>
+			<nav class="header__nav">
+				<ul class="nav__menu">
+					<li class="menu__list menu__list_active"><a href="">Model S</a></li>
+					<li class="menu__list"><a href="">Model X</a></li>
+					<li class="menu__list"><a href="">Model 3</a></li>
+					<li class="menu__list"><a href="">Roadster</a></li>
+					<li class="menu__list"><a href="">Energy</a></li>
 				</ul>
 			</nav>
-			<div class="header__right-block">		
-					<a href="" class="right-block__store">Магазин</a>
-					<a href="" class="right-block__enter">Войти</a>
-				<div class="header__hamburger-menu">
-					<a href="#">Бургер</a>
+			<div class="header__right-part">		
+				<a href="#" class="right-part__store">Магазин</a>
+				<a href="#" class="right-part__enter">Войти</a>
+				<div class="right-part__hamburger-menu hamburger-menu">
+					<input type="checkbox" id="checkbox" class="hamburger-menu__checkbox">
+					<label for="checkbox" class="hamburger-menu__button">
+						<div class="hamburger-menu__icon"></div>
+					</label>
 				</div>
 			</div>
 		</header>
 		<main class="main">
-			<h1 class="main__h1">Model S</h1>
-			<p>Добро пожаловать в будущее!</p>
-			<div class="main__inscription-tesla_background"><img src="" alt="Надпись Tesla" /></div>
-			<div class="main__image-tesla"><img src="" alt="Автомобиль Tesla" /></div>
-			<div>2,7 сек 0-100 км/час
-			632 км запас хода
-			Тест драйв
-			<button class="form__button_transparent">Заказать</button>
-			</div>
-			<div>
-				<div class="main__block-left_white">
-					<h2 class="main__h2_red">Model S</h2>
-					<img src="" alt="Салон Tesla" />
+			<section class="main__presentation">
+				<h1 class="presentation__title">Model S</h1>
+				<p class="presentation__welcome-text">Добро пожаловать в будущее!</p>
+				<div class="presentation__image-tesla"><img src="/tesla-png-tesla-png-hd-1636.png" alt="Автомобиль Tesla" /></div><!-- надпись Тесла background -->
+				<div class="presentation__feature">
+					<div class="feature__list">
+						<p class="list__speed"><span>2,7 сек</span> 0-100 км/час</p>
+						<p class="list__km"><span>632 км</span> запас хода</p>
+					</div>
+					<div class="feature__test-drive">
+						<p class="test-drive__text">Тест драйв</p>
+						<button class="test-drive__order-button order-button_transparent order-button_red">Заказать</button>
+					</div>
 				</div>
-				<div class="main__block-right_red">
-					<h3>Будущее вождения</h3>
-					<p class="block_red__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
-					<ul class="block-right_red__specifications">
-						<li><p>17 дюймов</p>
+				<div class="presentation__down-arrow"><img src="/Vector.png" alt="Вниз"></div>
+			</section>
+			<section class="main__advantages">
+				<div class="advantages__tesla-salon_left">
+					<h2 class="tesla-salon__subtitle">Model S</h2>
+				</div><!-- салон background`ом -->
+				<div class="advantages__specifications">
+					<h3 class="specifications__subtitle subtitle_white">Будущее вождения</h3>
+					<p class="specifications__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+					<ul class="specifications__list-specification">
+						<li class="list-specification__item"><img src="/screen.svg" class="list-specification__img_screen"><span>17 дюймов</span>
 						Большой дисплей</li>
-						<li><p>Беспроводное обновление ПО</p>
+						<li class="list-specification__item"><img src="/wifi.svg" class="list-specification__img_wifi"><span>Беспроводное обновление ПО</span>
 						Повышенная функциональность</li>
-						<li><p>894 литра</p>
+						<li class="list-specification__item"><img src="/bag.svg" class="list-specification__img_bag"><span>894 литра</span>
 						Объем грузового пространства</li>
 					</ul>
-					<div class="block-right_red">
-						<span class="block-right_red__learn-more">Узнать больше</span>
-						<button class="form__button_red">Заказать</button>
+					<div class="specifications__actions">
+						<p class="actions__learn-more learn-more">Узнать больше</p>
+						<button class="actions__order-button order-button_transparent order-button_white">Заказать</button>
 					</div>
 				</div>
-			</div>
-			<div>
-				<div class="main__block-left_red">
-					<h3>Самый безопасный автомобиль в мире</h3>
-					<p class="block_red__text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
-					<div class="block-left_red__protection">
-						<h3>Оценка защиты:</h3>
-						<ul class="block-left__protect">
-							<li><p>Спереди</p></li>
-							<li><p>Сбоку</p></li>
-							<li><p>Сбоку <span>Стойка</span></p></li>
-							<li><p>Водитель</p></li>
-							<li><p>Пассажир</p></li>
+			</section>
+			<section class="main__safety">
+				<div class="safety__info">
+					<h3 class="info__subtitle subtitle_white">Самый безопасный автомобиль в мире</h3>
+					<p class="info__text">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+					<div class="info__safety-rating">
+						<h3 class="safety-rating__subtitle subtitle_white">Оценка защиты:</h3>
+						<ul class="safety-rating__list-rating">
+							<li class="list-rating__item">Спереди</li>
+							<li class="list-rating__star"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"></li>
+							<li class="list-rating__item">Сбоку</li>
+							<li class="list-rating__star"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"></li>
+							<li class="list-rating__item">Сбоку <span>(Стойка)</span></li>
+							<li class="list-rating__star"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"></li>
+							<li class="list-rating__item">Водитель</li>
+							<li class="list-rating__star"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"></li>
+							<li class="list-rating__item">Пассажир</li>
+							<li class="list-rating__star"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"><img src="/star.svg"></li>
 						</ul>
 					</div>
-					<div class="block-left_red__guard"><span>5 звезд</span> безопасности</div>
-					<div class="block-left_red">
-						<span class="block-left_red__learn-more">Узнать больше</span>
-						<button class="form__button_red">Заказать</button>
+					<p class="info__rating-result"><span>5 звезд</span> безопасности</p>
+					<div class="info__actions">
+						<p class="actions__learn-more learn-more">Узнать больше</p>
+						<button class="actions__order-button order-button_transparent order-button_white">Заказать</button>
 					</div>
 				</div>
-				<div class="main__block-right_white">
-					<img src="" alt="Модель S полупрозрачный">
-					<img src="" alt="Кузов автомобиля">
-					<div class="block-right_white__safety">
-						<p>Защита от удара спереди</p>
-						<p>Защита от удара сбоку</p>
-						<p>Минимальный риск перевернуться в аварии</p>
-					</div>
+				<div class="main__safety-schema">
+					<img class="safety-schema__img-auto" src="" alt="Кузов автомобиля">
+					<div class="safety-schema__advantages front-protection">Защита от удара спереди</div>
+					<div class="safety-schema__advantages side-protection">Защита от удара сбоку</div>
+					<div class="safety-schema__advantages roll-protection">Минимальный риск перевернуться в аварии</div>
 				</div>
-			</div>
+			</section>
 		</main>
 	</body>
 </html>
