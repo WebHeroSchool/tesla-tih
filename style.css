@@ -1,0 +1,98 @@
+* {
+
+}
+.header__nav, .header__right-part {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 15px;
+}
+h1.presentation__title {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 90px;
+}
+.presentation__welcome-text {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 15px;
+}
+.feature__speed_subtitle, .feature__km_subtitle {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 35px;
+}
+.feature__speed_subtitle, .feature__km_subtitle {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 20px;
+}
+.feature__speed, .feature__km {
+	font-family: 'Montserrat';
+	font-weight: normal;
+	font-size: 12px;
+}
+.test-drive__text, .order-button_transparent.order-button_red {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 13px;
+}
+h2.tesla-salon__subtitle {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 70px;
+}
+h3.specifications__subtitle, h3.info__subtitle, h3.safety-rating__subtitle {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 30px;
+}
+.specifications__text, .info__text {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 15px;
+}
+.list-specification__item_title {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 35px;
+}
+.list-specification__item_subtitle {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 20px;
+}
+.list-specification__item {
+	font-family: 'Montserrat';
+	font-weight: normal;
+	font-size: 12px;
+}
+.learn-more, .actions__order-button {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 13px;
+}
+.list-rating__item {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 17px;
+}
+.list-rating__item span {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 10px;
+}
+.rating-result__text span {
+	font-family: 'Montserrat';
+	font-weight: ;
+	font-size: ;
+}
+.rating-result__text {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 25px;
+}
+.safety-schema__advantages {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 17px;
+}
