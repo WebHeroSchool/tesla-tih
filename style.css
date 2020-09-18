@@ -1,7 +1,8 @@
 * {
 
 }
-.header__nav, .header__right-part {
+/*подключение шрифтов начало*/
+.header__nav li a, .header__right-part {
 	font-family: 'Montserrat_SemiBold';
 	font-weight: 600;
 	font-size: 15px;
@@ -96,3 +97,79 @@ h3.specifications__subtitle, h3.info__subtitle, h3.safety-rating__subtitle {
 	font-weight: 600;
 	font-size: 17px;
 }
+/*подключение шрифтов конец*/
+body {
+	margin: 0;
+	padding: 0;
+}
+/*стили для хедера и первой части страницы начало*/
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: flex-start;
+	margin-top: 24px;
+}
+.header__logo {
+	flex-grow: 1;
+	margin-left: 42px;
+}
+.header__nav {
+	flex-grow: 2;
+	margin-left: 85px;
+}
+.nav__menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: flex-start;
+	padding: 0;
+	margin-right: 80px;
+}
+.nav__menu li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+.nav__menu li a {
+	text-decoration: none;
+}
+.nav__menu li:first-child {
+	margin-left: 73px;
+}
+.nav__menu li:nth-child(2) {
+	margin-left: 37px;
+}
+.nav__menu li:nth-child(3) {
+	margin-right: 17px;
+}
+.nav__menu li:nth-child(4) {
+	margin-right: 19px;
+}
+.nav__menu li:nth-child(5) {
+	margin-right: 40px;
+}
+.hamburger-menu__checkbox {
+	display: none;
+}
+.header__right-part {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+.header__right-part > * {
+	margin-right: 10px;
+}
+h1.presentation__title {
+	text-align: center;
+}
+
+
+/*стили для хедера и первой части страницы конец*/
