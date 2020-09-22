@@ -17,17 +17,17 @@ h1.presentation__title {
 	font-weight: 600;
 	font-size: 15px;
 }
-.feature__speed_subtitle, .feature__km_subtitle {
+.feature__racing_value, .feature__reserve_value {
 	font-family: 'Montserrat_SemiBold';
 	font-weight: 600;
 	font-size: 35px;
 }
-.feature__speed_subtitle, .feature__km_subtitle {
+.feature__racing_sek, .feature__reserve_km {
 	font-family: 'Montserrat_SemiBold';
 	font-weight: 600;
 	font-size: 20px;
 }
-.feature__speed, .feature__km {
+.feature__racing_km, .feature__reserve_name {
 	font-family: 'Montserrat_Regular';
 	font-weight: normal;
 	font-size: 12px;
@@ -200,7 +200,41 @@ h1.presentation__title {
 	justify-content: center;
 	align-items: center;
 	align-content: flex-start;
-	margin-right: 46px;
+	margin-right: 105px;
+}
+.feature__race_img {
+	margin-right: 14px;
+	margin-top: 0px;
+    padding-top: 20px;
+}
+.feature__racing_value, .feature__reserve_value {
+	font-size: 35px;
+	line-height: 43px;
+	font-weight: 600;
+	display: inline-block;
+}
+.feature__racing_sek, .feature__reserve_km {
+	font-size: 20px;
+	line-height: 24px;
+	display: inline-block;
+}
+.feature__racing_km, .feature__reserve_name {
+	font-size: 12px;
+	line-height: 15px;
+	text-align: left;
+	display: block;
+}
+.feature__racing {
+	margin-right: 81px;
+	margin-top: 0px;
+}
+.feature__reserve {
+	margin-top: 0px;
+}
+.feature__reserve_img {
+	margin-right: 5px;
+	margin-top: 0px;
+    padding-top: 20px;
 }
 .feature__test-drive {
 	display: flex;
@@ -209,27 +243,22 @@ h1.presentation__title {
 	justify-content: center;
 	align-items: center;
 	align-content: flex-start;
-	margin-right: 4px;
+	margin-right: 10px;
 	margin-bottom: 5px;
-}
-.feature__speed {
-	margin-right: 60px;
-    padding-top: 5px;
-}
-.feature__km {
-	margin-right: 53px;
-    padding-top: 10px;
 }
 .test-drive__img {
 	margin-right: 7px;
 }
 .test-drive__text {
 	margin-right: 40px;
+	text-transform: uppercase;
+	text-shadow: 0px 4px 3px #cccccc;
 }
 .order-button{
 	width: 160px;
     height: 40px;
     border-radius: 0px;
+    text-transform: uppercase;
 }
 .order-button_transparent {
 	background-color: transparent;
