@@ -170,7 +170,8 @@ body {
 h1.presentation__title {
 	text-align: center;
 	margin: 0;
-    padding-top: 45px;
+    padding-top: 55px;
+    line-height: 1;
 }
 .presentation__welcome-text {
 	text-align: center;
@@ -232,9 +233,11 @@ h1.presentation__title {
 	margin-top: 0px;
 }
 .feature__reserve_img {
-	margin-right: 5px;
 	margin-top: 0px;
     padding-top: 20px;
+}
+.feature__reserve_icon {
+	margin-right: 11px;
 }
 .feature__test-drive {
 	display: flex;
