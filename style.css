@@ -132,6 +132,7 @@ body {
 }
 .header__menu a, .header__right-part a {
 	text-decoration: none;
+	color: #000000;
 }
 .header__menu a:first-child {
 	margin-right: 62px;
@@ -147,6 +148,22 @@ body {
 }
 .header__menu a:nth-child(5) {
 	/*margin-right: 81px;*/
+}
+.menu__list_active {
+	position: relative;
+}
+a.menu__list_active {
+	color: #E51937;
+}
+.menu__list_active:after {
+	content: '';
+    background-image: url(img/line.png);
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 25px;
+    left: 0px;
 }
 .hamburger-menu__checkbox {
 	display: none;
@@ -170,7 +187,7 @@ body {
 h1.presentation__title {
 	text-align: center;
 	margin: 0;
-    padding-top: 55px;
+    padding-top: 60px;
     line-height: 1;
 }
 .presentation__welcome-text {
@@ -178,13 +195,15 @@ h1.presentation__title {
     margin: 0;
 }
 .presentation__image-tesla {
-    padding-top: 15px;
-    margin-right: 80px;
-    background-image: url(img/Tesla-Wordmark-Red.png);
+    padding-top: 25px;
+    background-image: url(img/Tesla-Wordmark-Red1.png);
     text-align: center;
+    background-repeat: no-repeat;
+    margin-bottom: 8px;
 }
 .presentation__image-tesla img {
-	width: 72%;
+    width: 67%;
+    margin-right: 70px;
 }
 .presentation__feature {
 	display: flex;
@@ -193,6 +212,7 @@ h1.presentation__title {
 	justify-content: center;
 	align-items: center;
 	align-content: flex-start;
+	margin-bottom: 12px;
 }
 .feature__list {
 	display: flex;
@@ -201,12 +221,10 @@ h1.presentation__title {
 	justify-content: center;
 	align-items: center;
 	align-content: flex-start;
-	margin-right: 105px;
+	margin-right: 104px;
 }
 .feature__race_img {
 	margin-right: 14px;
-	margin-top: 0px;
-    padding-top: 20px;
 }
 .feature__racing_value, .feature__reserve_value {
 	font-size: 35px;
@@ -226,15 +244,13 @@ h1.presentation__title {
 	display: block;
 }
 .feature__racing {
-	margin-right: 81px;
-	margin-top: 0px;
+	margin-right: 80px;
 }
 .feature__reserve {
-	margin-top: 0px;
+
 }
 .feature__reserve_img {
-	margin-top: 0px;
-    padding-top: 20px;
+
 }
 .feature__reserve_icon {
 	margin-right: 11px;
@@ -275,10 +291,10 @@ h1.presentation__title {
 	
 }
 /*стили для хедера и первой части страницы конец*/
-
+/*
 header > * {
 	border: 1px solid;
 }
 .main__presentation > * {
 	border: 1px solid;
-}
+}*/
