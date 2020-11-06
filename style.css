@@ -329,11 +329,12 @@ h1.presentation__title {
 		margin-right: 44px;
 	    font-size: 16px;
 	    line-height: 19.5px;
+	    padding-top: 3px;
 	}
 	.order-button {
 		font-size: 16px;
 		width: 220px;
-    	height: 50px;
+    	height: 55px;
 	}
 	.order-button_red {
 		background-color: #E51937;
@@ -350,7 +351,7 @@ h1.presentation__title {
 		margin-right: 0;
 	}
 	.feature__list {
-		margin-bottom: 25px;
+		margin-bottom: 41px;
 	}
 	.feature__race_img {
 		margin-right: 13px;
@@ -359,7 +360,7 @@ h1.presentation__title {
 		width: 75px;
 	}
 	.feature__racing {
-		margin-right: 85px;
+		margin-right: 80px;
 		line-height: 40px;
 	}
 	.feature__reserve_icon {
@@ -368,6 +369,10 @@ h1.presentation__title {
 	.feature__racing_value, .feature__reserve_value {
 		font-size: 50px;
 		margin-bottom: 10px;
+		padding-top: 18px;
+	}
+	.feature__reserve_value {
+		padding-right: 5px;
 	}
 	.test-drive__img {
 		width: 32px;
