@@ -32,7 +32,7 @@ h1.presentation__title {
 	font-weight: normal;
 	font-size: 12px;
 }
-.test-drive__text, .order-button_transparent.order-button_red {
+.test-drive__text, .order-button {
 	font-family: 'Montserrat_Bold';
 	font-weight: bold;
 	font-size: 13px;
@@ -293,6 +293,84 @@ h1.presentation__title {
     color: #E51937;
 }
 /*стили для шапки и первого блока конец*/
-@media screen {
-	
+@media (max-width: 770px) {
+	.header {
+		margin-left: 15px;
+    	margin-top: 25px;
+	}
+	.header__menu, .right-part__store, .right-part__enter {
+		display: none;
+	}
+	.header__right-part {
+		flex-basis: 100%;
+		justify-content: flex-end;
+	}
+	.header__right-part > * {
+		margin-right: 3px;
+	}
+	.hamburger-menu__icon img {
+		width: 35px;
+	}
+	h1.presentation__title {
+		padding-top: 80px;
+	}
+	.presentation__feature {
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		margin-right: 3em;
+		margin-bottom: 60px;
+	}
+	.feature__test-drive {
+		margin-right: 120px;
+    	font-size: 16px;
+	}
+	.test-drive__text {
+		color: #E51937;
+		margin-right: 44px;
+	    font-size: 16px;
+	    line-height: 19.5px;
+	}
+	.order-button {
+		font-size: 16px;
+		width: 220px;
+    	height: 50px;
+	}
+	.order-button_red {
+		background-color: #E51937;
+		color: #ffffff;
+	}
+	.presentation__image-tesla {
+		padding-top: 90px;
+	    margin-bottom: 25px;
+	    background-size: 821px;
+	    background-position: 13% 17%;
+	}
+	.presentation__image-tesla img {
+		width: 91%;
+		margin-right: 0;
+	}
+	.feature__list {
+		margin-bottom: 25px;
+	}
+	.feature__race_img {
+		margin-right: 13px;
+	}
+	.feature__race_icon {
+		width: 75px;
+	}
+	.feature__racing {
+		margin-right: 85px;
+		line-height: 40px;
+	}
+	.feature__reserve_icon {
+		width: 58px;
+	}
+	.feature__racing_value, .feature__reserve_value {
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
+	.test-drive__img {
+		width: 32px;
+    	margin-right: 14px;
+	}
 }
