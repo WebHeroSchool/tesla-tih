@@ -317,11 +317,11 @@ h1.presentation__title {
 	.presentation__feature {
 		flex-wrap: wrap;
 		justify-content: flex-end;
-		margin-right: 3em;
+		margin-right: 45px;
 		margin-bottom: 60px;
 	}
 	.feature__test-drive {
-		margin-right: 120px;
+		margin-right: 122px;
     	font-size: 16px;
 	}
 	.test-drive__text {
@@ -360,7 +360,7 @@ h1.presentation__title {
 		width: 75px;
 	}
 	.feature__racing {
-		margin-right: 80px;
+		margin-right: 72px;
 		line-height: 40px;
 	}
 	.feature__reserve_icon {
@@ -370,6 +370,7 @@ h1.presentation__title {
 		font-size: 50px;
 		margin-bottom: 10px;
 		padding-top: 18px;
+		margin-right: 6px;
 	}
 	.feature__reserve_value {
 		padding-right: 5px;
