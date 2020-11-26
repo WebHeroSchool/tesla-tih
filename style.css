@@ -318,7 +318,7 @@ h1.presentation__title {
 		flex-wrap: wrap;
 		justify-content: flex-end;
 		margin-right: 45px;
-		margin-bottom: 60px;
+		margin-bottom: 55px;
 	}
 	.feature__test-drive {
 		margin-right: 122px;
@@ -351,32 +351,138 @@ h1.presentation__title {
 		margin-right: 0;
 	}
 	.feature__list {
-		margin-bottom: 41px;
+		margin-bottom: 39px;
+		margin-right: 108px;
 	}
 	.feature__race_img {
-		margin-right: 13px;
+		margin-right: 15px;
 	}
 	.feature__race_icon {
 		width: 75px;
 	}
 	.feature__racing {
-		margin-right: 72px;
+		margin-right: 73px;
 		line-height: 40px;
 	}
 	.feature__reserve_icon {
 		width: 58px;
+		margin-right: 10px;
 	}
 	.feature__racing_value, .feature__reserve_value {
 		font-size: 50px;
-		margin-bottom: 10px;
-		padding-top: 18px;
+		margin-bottom: 15px;
+		padding-top: 12px;
 		margin-right: 6px;
 	}
 	.feature__reserve_value {
-		padding-right: 5px;
+		padding-right: 2px;
 	}
 	.test-drive__img {
 		width: 32px;
     	margin-right: 14px;
+	}
+	.feature__racing_km, .feature__reserve_name {
+    	padding-left: 1px;
+	}
+}
+@media (max-width: 380px) {
+	.header {
+		margin: 0;
+	}
+	.logo__img {
+		width: 138px;
+    	padding-top: 4px;
+    	padding-left: 2px;
+	}
+	.hamburger-menu__icon img {
+	    width: 24px;
+	    height: 15px;
+	    padding-top: 9px;
+	}
+	.header__right-part {
+		margin-right: 23px;
+	}
+	.presentation__title {
+		padding-top: 31px;
+	    font-size: 50px;
+	    margin-right: 5px;
+	}
+	h1.presentation__title {
+		font-size: 50px;
+		padding-top: 31px;
+    	padding-right: 5px;
+    	margin-bottom: 2px;
+	}
+	.presentation__welcome-text {
+		font-size: 10px;
+    	padding-right: 5px;
+	}
+	.presentation__image-tesla {
+		padding-top: 49px;
+    	padding-right: 3px;
+    	background-size: 425px;
+    	background-position: 44% 29%;
+    	margin-bottom: 5px;
+	}
+	.presentation__image-tesla img {
+		width: 94%
+	}
+	.presentation__feature {
+		margin-right: 35px;
+		margin-bottom: 22px;
+	}
+	.feature__list {
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	.feature__racing_value, .feature__reserve_value {
+		font-size: 27px;
+		margin-bottom: 0px;
+	}
+	.feature__racing_sek, .feature__reserve_km {
+		font-size: 15px;
+	}
+	.feature__racing_km, .feature__reserve_name {
+		font-size: 10px;
+	}
+	.feature__racing {
+		margin-right: 37px;
+	}
+	.feature__race_icon {
+		width: 44px;
+	}
+	.feature__reserve_icon {
+		width: 33px;
+		margin-right: 8px;
+	}
+	.feature__test-drive {
+		margin-right: 0px;
+	}
+	.feature__list {
+	 	margin-right: 20px;
+    	margin-bottom: 29px;
+	 }
+	 .test-drive__text {
+	 	font-size: 13px;
+	 	margin-right: 25px;
+	 }
+	 .order-button {
+	 	width: 160px;
+    	height: 40px;
+    	font-size: 13px;
+    	padding: 10px 42px;
+	 }
+	 .test-drive__img {
+	 	margin-right: 6px;
+    	width: 22px;
+	 }
+	 .feature__race_img {
+	 	margin-right: 10px;
+	 }
+	 .feature__reserve_value {
+	 	margin-right: 2px;
+	 }
+	 .safety-schema__img-auto {
+	 	width: 1%;
 	}
 }
