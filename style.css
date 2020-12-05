@@ -213,7 +213,7 @@ h1.presentation__title {
 	justify-content: flex-end;
 	align-items: center;
 	align-content: flex-start;
-	margin-bottom: 10px;
+	margin-bottom: 23px;
 	margin-right: 19em;
 }
 .feature__list {
@@ -234,6 +234,7 @@ h1.presentation__title {
 	font-size: 35px;
 	line-height: 43px;
 	font-weight: 600;
+	padding-top: 14px;
 	display: inline-block;
 }
 .feature__racing_sek, .feature__reserve_km {
@@ -270,6 +271,7 @@ h1.presentation__title {
 	align-content: flex-start;
 	margin-right: 10px;
 	margin-bottom: 5px;
+	padding-top: 14px;
 }
 .test-drive__img {
 	margin-right: 7px;
@@ -283,6 +285,7 @@ h1.presentation__title {
 	width: 160px;
     height: 40px;
     border-radius: 0px;
+    padding-top: 0px;
     text-transform: uppercase;
 }
 .order-button_transparent {
@@ -292,6 +295,20 @@ h1.presentation__title {
 	border: 2px solid #E51937;
     color: #E51937;
 }
+.main__advantages {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+	background-image: url(img/2013-tesla-model-s-cockpit.png);
+}
+.advantages__tesla-salon_left {
+	padding: 37px 0 0 80px;
+	
+}
+
 /*стили для шапки и первого блока конец*/
 @media (max-width: 770px) {
 	.header {
