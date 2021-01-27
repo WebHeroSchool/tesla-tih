@@ -47,23 +47,25 @@ h3.specifications__subtitle, h3.info__subtitle, h3.safety-rating__subtitle {
 	font-family: 'Montserrat_SemiBold';
 	font-weight: 600;
 	font-size: 30px;
+	margin-bottom: 0px
 }
 .specifications__text, .info__text {
 	font-family: 'Montserrat_Medium';
 	font-weight: 500;
 	font-size: 15px;
+	line-height: 18px;
 }
-.list-specification__item_title {
+.list-specification__number {
 	font-family: 'Montserrat_SemiBold';
 	font-weight: 600;
 	font-size: 35px;
 }
-.list-specification__item_subtitle {
+.list-specification__text {
 	font-family: 'Montserrat_SemiBold';
 	font-weight: 600;
 	font-size: 20px;
 }
-.list-specification__item {
+.list-specification__item_subtitle {
 	font-family: 'Montserrat_Regular';
 	font-weight: normal;
 	font-size: 12px;
@@ -299,16 +301,114 @@ h1.presentation__title {
 	display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     height: 100%;
-	background-image: url(img/2013-tesla-model-s-cockpit.png);
+    background-image: url(img/2013-tesla-model-s-cockpit.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
 }
 .advantages__tesla-salon_left {
-	padding: 37px 0 0 80px;
-	
+	padding: 5px 0 0 80px;
 }
-
+.presentation__down-arrow {
+	margin-bottom: 31px;
+}
+.advantages__specifications {
+	width: 27vw;
+    height: 61.1vw;
+    background-color: #E51937;
+    padding: 20px 0 0 50px;
+    color: #ffffff;
+}
+.specifications__text {
+	padding-right: 50px;
+	margin-bottom: 60px;
+	margin-top: 0;
+}
+.specifications__list-specification {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 140px;
+}
+.list-specification__item {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 23px;
+}
+.list-specification__desc {
+	display: flex;
+	flex-direction: column;
+	max-width: 13vw;
+	padding-left: 3px;
+}
+.list-specification__title {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: baseline;
+	margin: 0;
+	padding-top: 12px;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+.list-specification__number {
+	margin-right: 10px;
+}
+.list-specification__item_subtitle {
+	margin: 0;
+}
+.list-specification__icon {
+	margin-right: 15px;
+	padding-top: 10px;
+}
+.specifications__subtitle.subtitle_white {
+	margin-bottom: 14px;
+}
+.list-specification__img_wifi {
+	padding-top: 15px;
+}
+.list-specification__img_bag {
+	padding-top: 3px;
+	padding-right: 7px;
+}
+.specifications__actions {
+	display: flex;
+    justify-content: flex-start;
+    padding-top: 8px;
+}
+.actions__learn-more {
+	text-transform: uppercase;
+	margin-right: 5px;
+}
+.actions__learn-more.learn-more {
+	margin-right: 35px;
+}
+.order-button_white {
+	border-color: #ffffff;
+	color: #ffffff;
+}
+.main__safety {
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #ffffff;
+    height: 100%;
+}
+.safety__info {
+	padding-left: 55px;
+	padding-top: 20px;
+	background-color: #E51937;
+    width: 27vw;
+    height: 61.1vw;
+}
+.subtitle_white {
+	color: #ffffff;
+}
 /*стили для шапки и первого блока конец*/
 @media (max-width: 770px) {
 	.header {
