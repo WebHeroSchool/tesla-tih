@@ -4,22 +4,20 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title>Промежуточная итоговая работа. Шаг 1</title>
-		<link rel="stylesheet" type="text/css" href="/fonts.css">
-		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="stylesheet" type="text/css" href="fonts.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<header class="header">
 			<div class="header__logo">
 				<img src="img/logo.png" class="logo__img" alt="Логотип"/>
 			</div>
-			<nav class="header__nav">
-				<ul class="nav__menu">
-					<li class="menu__list menu__list_active"><a href="">Model S</a></li>
-					<li class="menu__list"><a href="">Model X</a></li>
-					<li class="menu__list"><a href="">Model 3</a></li>
-					<li class="menu__list"><a href="">Roadster</a></li>
-					<li class="menu__list"><a href="">Energy</a></li>
-				</ul>
+			<nav class="header__menu">
+					<a href="" class="menu__list menu__list_active">Model S</a>
+					<a href="" class="menu__list">Model X</a>
+					<a href="" class="menu__list">Model 3</a>
+					<a href="" class="menu__list">Roadster</a>
+					<a href="" class="menu__list">Energy</a>
 			</nav>
 			<div class="header__right-part">		
 				<a href="#" class="right-part__store">Магазин</a>
@@ -27,7 +25,7 @@
 				<div class="right-part__hamburger-menu hamburger-menu">
 					<input type="checkbox" id="checkbox" class="hamburger-menu__checkbox">
 					<label for="checkbox" class="hamburger-menu__button">
-						<div class="hamburger-menu__icon"></div>
+						<div class="hamburger-menu__icon"><img src="img/menu.svg" alt="Иконка бургер-меню"></div>
 					</label>
 				</div>
 			</div>
@@ -39,13 +37,15 @@
 				<div class="presentation__image-tesla"><img src="img/tesla-png-tesla-png-hd-1636.png" alt="Автомобиль Tesla" /></div><!-- надпись Тесла background -->
 				<div class="presentation__feature">
 					<div class="feature__list">
-						<p class="feature__speed"><img class="feature__speed_icon" src="img/Road icon.svg"><span class="feature__speed_title">2,7</span> <span>сек</span> 0-100 км/час</p>
-						<p class="feature__km"><img class="feature__kn_icon" src="img/Speed.svg"><span class="feature__km_title">632</span> <span>км</span> запас хода</p>
+						<div class="feature__race_img"><img class="feature__race_icon" src="img/Speed.svg"></div>
+						<div class="feature__racing"><span class="feature__racing_value">2,7</span> <span class="feature__racing_sek">сек</span> <span class="feature__racing_km">0-100 км/час</span></div>
+						<div class="feature__reserve_img"><img class="feature__reserve_icon" src="img/Road icon.svg"></div>
+						<div class="feature__reserve"><span class="feature__reserve_value">632</span> <span class="feature__reserve_km">км</span> <span class="feature__reserve_name">запас хода</span></div>
 					</div>
 					<div class="feature__test-drive">
 						<img class="test-drive__img" src="img/steering-wheel.png">
 						<p class="test-drive__text">Тест драйв</p>
-						<button class="test-drive__order-button order-button_transparent order-button_red">Заказать</button>
+						<button class="test-drive__order-button order-button order-button_transparent order-button_red">Заказать</button>
 					</div>
 				</div>
 				<div class="presentation__down-arrow"><img src="img/Vector.png" alt="Вниз"></div>
@@ -57,17 +57,33 @@
 				<div class="advantages__specifications">
 					<h3 class="specifications__subtitle subtitle_white">Будущее вождения</h3>
 					<p class="specifications__text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
-					<ul class="specifications__list-specification">
-						<li class="list-specification__item"><img src="img/screen.svg" class="list-specification__img_screen"><span class="list-specification__item_title">17</span> <span class="list-specification__item_subtitle">дюймов</span>
-						Большой дисплей</li>
-						<li class="list-specification__item"><img src="img/wifi.svg" class="list-specification__img_wifi"><span class="list-specification__item_subtitle">Беспроводное обновление ПО</span>
-						Повышенная функциональность</li>
-						<li class="list-specification__item"><img src="img/bag.svg" class="list-specification__img_bag"><span class="list-specification__item_title">894</span> <span class="list-specification__item_subtitle">литра</span>
-						Объем грузового пространства</li>
-					</ul>
+					<div class="specifications__list-specification">
+						<div class="list-specification__item">
+							<div class="list-specification__icon"><img src="img/screen.svg" class="list-specification__img_screen"></div>
+							<div class="list-specification__desc">
+								<p class="list-specification__title"><span class="list-specification__number">17</span> <span class="list-specification__text">дюймов</span></p>
+								<p class="list-specification__item_subtitle">Большой дисплей</p>
+							</div>
+						</div>
+						<div class="list-specification__item">
+							<div class="list-specification__icon"><img src="img/wifi.svg" class="list-specification__img_wifi"></div>
+							<div class="list-specification__desc">
+								<p class="list-specification__title"><span class="list-specification__text">Беспроводное обновление ПО</span></p>
+								<p class="list-specification__item_subtitle">Повышенная функциональность</p>
+							</div>
+						</div>
+						<div class="list-specification__item">
+							<div class="list-specification__icon"><img src="img/bag.svg" class="list-specification__img_bag"></div>
+							<div class="list-specification__desc">
+								<p class="list-specification__title"><span class="list-specification__number">894</span> <span class="list-specification__text">литра</span></p>
+								<p class="list-specification__item_subtitle">Объем грузового пространства</p>
+							</div>
+						</div>
+					</div>
 					<div class="specifications__actions">
+						<img class="actions__learn-more learn-more-icon" src="img/info.svg">
 						<p class="actions__learn-more learn-more">Узнать больше</p>
-						<button class="actions__order-button order-button_transparent order-button_white">Заказать</button>
+						<button class="actions__order-button order-button order-button_transparent order-button_white">Заказать</button>
 					</div>
 				</div>
 			</section>
@@ -96,7 +112,7 @@
 					</div>
 					<div class="info__actions">
 						<p class="actions__learn-more learn-more">Узнать больше</p>
-						<button class="actions__order-button order-button_transparent order-button_white">Заказать</button>
+						<button class="actions__order-button order-button order-button_transparent order-button_white">Заказать</button>
 					</div>
 				</div>
 				<div class="main__safety-schema">
